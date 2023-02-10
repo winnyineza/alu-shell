@@ -1,16 +1,8 @@
 #!/usr/bin/env bash
-# Bash script to displays 'Best School' ten times
-
-# Use while loop
-
-count=0
-
-while [[ $count -ne 10 ]]
-
+#A bash script that displays Best School 10 times
+x=1
+while (( x <= 10))
 do
-
-    echo "Best School"
-    
-    ((count++))
-    
+   echo "Best School"
+   x=$((x + 1))
 done
