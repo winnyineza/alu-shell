@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# Stop a running script
-for pid in $(pgrep -f 4-to_infinity_and_beyond); do 
-	kill "$pid"
-done
