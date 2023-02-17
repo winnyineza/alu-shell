@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Delay infinite loop output by 2 secs
+while true; do
+	echo "To infinity and beyond"
+	sleep 2
+done
